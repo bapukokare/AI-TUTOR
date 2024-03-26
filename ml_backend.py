@@ -2,7 +2,7 @@ import openai
 
 class ml_backend:
         
-    openai.api_key = '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'
+    openai.api_key = 'sk-WzyVX0dGy7UT4okoWK'
 
     def generate_message(self, user_prompt="Ask Question", image_data=None):
         """Generate a message based on user prompt and optional image data"""
